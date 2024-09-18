@@ -1,0 +1,38 @@
+.login {
+  padding: 4rem 6rem;
+  width: 10rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.login__title {
+  text-align: center;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login__form__field > input {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  margin-top: 0.4rem;
+}
+
+.login__form__field > label {
+  margin-bottom: 1rem;
+}
+
+.login__form__login {
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
