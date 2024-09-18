@@ -6,6 +6,7 @@ describe("TextInput", () => {
   const defaultProps = {
     id: "test-input",
     label: "Test Label",
+    type: "text",
     name: "testName",
     onChange: mockOnChange,
   };
